@@ -5,8 +5,8 @@ This project is a hands-on exploration of phishing attack investigation techniqu
 ## 🔍 Key Features
 
 - Simulated email environment using **MailCatcher**
-- Analysis of phishing email samples from **PhishTank** and **OpenPhish**
-- Use of tools like **Thunderbird**, **PhishTool**, and **VirusTotal**
+- Analysis of phishing email samples 
+- Use of tools like **Thunderbird**, **VirusTotal**
 - Exercises in:
   - Identifying phishing indicators
   - Analyzing email headers
@@ -21,6 +21,7 @@ To develop practical skills in recognizing and responding to phishing threats �
 
 - [Thunderbird](https://www.thunderbird.net/)
 - [MailCatcher](https://mailcatcher.me/)
+- [Swaks](https://github.com/jetmore/swaks?tab=readme-ov-file)
 - [PhishTank](https://www.phishtank.com/)
 - [OpenPhish](https://openphish.com/)
 - [PhishTool](https://phishtool.com/)
@@ -28,23 +29,4 @@ To develop practical skills in recognizing and responding to phishing threats �
 - [MXToolbox](https://mxtoolbox.com/)
 - [EmailHeaders.net](https://emailheaders.net/)
 
-## 📂 Structure
 
-```
-.
-├── index.md                  # Main blog post (phishing investigation write-up)
-├── README.md                 # Project overview
-└── _config.yml               # GitHub Pages config (optional Jekyll theme)
-```
-
-## 🚀 How to View
-
-If using GitHub Pages:
-- Go to the **Settings > Pages** section of this repo
-- Set the source to the root of the `main` branch
-- Your site will be available at:
-  `https://<your-username>.github.io/<repository-name>/`
-
-## 📫 Feedback
-
-Feel free to open an issue or fork the repo if you're interested in improving or expanding the lab. Happy learning!
