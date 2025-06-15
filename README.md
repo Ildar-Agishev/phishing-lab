@@ -22,11 +22,8 @@ To develop practical skills in recognizing and responding to phishing threats â€
 - [Thunderbird](https://www.thunderbird.net/)
 - [MailCatcher](https://mailcatcher.me/)
 - [Swaks](https://github.com/jetmore/swaks?tab=readme-ov-file)
-- [PhishTank](https://www.phishtank.com/)
-- [OpenPhish](https://openphish.com/)
 - [PhishTool](https://phishtool.com/)
 - [VirusTotal](https://www.virustotal.com/)
-- [MXToolbox](https://mxtoolbox.com/)
-- [EmailHeaders.net](https://emailheaders.net/)
+
 
 
