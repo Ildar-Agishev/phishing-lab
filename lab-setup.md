@@ -1,6 +1,6 @@
 # 🔍 Phishing Attack Investigation – A Hands-On Security Lab
 
-**Phishing** remains one of the most common and dangerous threats in the cybersecurity landscape. As part of my preparation for a role as a **Security Analyst**, I developed a hands-on phishing investigation lab to simulate real-world incident analysis. This blog-style post walks through the project’s stages and insights gained during the process.
+**Phishing** remains one of the most common and dangerous threats in the cybersecurity landscape. As part of my professional growth, I developed a hands-on phishing investigation lab to simulate real-world incident analysis. This blog-style post walks through the project’s stages and insights gained during the process.
 
 ---
 
@@ -34,10 +34,10 @@ The first step was to establish a **safe, isolated lab environment** using:
 
 ### 2. Collecting Phishing Samples
 
-I imported real phishing email samples sourced from public databases such as:
+I imported real phishing email samples sourced from malware traffic analyses rosurce :
 
-- [PhishTank](https://www.phishtank.com/)
-- [OpenPhish](https://openphish.com/)
+- [malware-traffic-analysis.net](https://www.malware-traffic-analysis.net/)
+
 
 These messages were loaded into Thunderbird for inspection.
 
@@ -60,7 +60,7 @@ Each email was reviewed for common phishing signs:
 
 ### 4. Email Header Analysis
 
-Using Thunderbird and tools like [EmailHeaders.net](https://emailheaders.net/), I examined raw headers to trace:
+Using Thunderbird email client, I examined raw headers to trace:
 
 - Email routing paths (Received headers)  
 - Sender IP addresses  
@@ -75,9 +75,8 @@ Using Thunderbird and tools like [EmailHeaders.net](https://emailheaders.net/), 
 URLs found in the emails were extracted and analyzed using:
 
 - [VirusTotal](https://www.virustotal.com/)  
-- [PhishTool](https://phishtool.com/)
 
-These tools help determine whether a link points to a malicious or deceptive site, without visiting it directly.
+This tool helps determine whether a link points to a malicious or deceptive site, without visiting it directly.
 
 **Goal:** Identify potentially harmful destinations safely.
 
@@ -94,18 +93,7 @@ All findings were compiled into a **structured incident report**, including:
 
 > This report simulates how investigations are documented in real-world cybersecurity teams.
 
----
 
-## 🚀 Outcomes & Learnings
 
-- Strengthened skills in **email forensics** and header analysis  
-- Gained experience using open-source investigation tools  
-- Practiced documenting an incident in a structured, readable format  
-- Built a valuable portfolio project for job applications
 
----
-
-This lab not only reinforced core technical skills but also demonstrated my ability to think critically, investigate safely, and communicate findings clearly — all essential for a cybersecurity role.
-
-Want to try this yourself? Clone the project or build your own version using free tools and open phishing samples. 🚀
 
